@@ -1,0 +1,315 @@
+body {
+	margin: 0px;
+	font-family: arial;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+#kitchen {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 670px;
+	width: auto;
+	z-index: 0;
+}
+
+#fridgeTop {
+	user-select: none;
+	position: fixed;
+	left: 35px;
+	top: 10px;
+	width: 420px;
+	height: 230px;
+	z-index: 0;
+}
+#fridgeBottom {
+	user-select: none;
+	position: fixed;
+	left: 35px;
+	top: 245px;
+	width: 420px;
+	height: 420px;
+	z-index: 3;
+}
+
+#bottomFridgeFrame {
+	position: fixed;
+	left: 50px;
+	top: 276px;
+	z-index: 90;
+}
+
+.magnets {
+	z-index: 100;
+	user-select: none;
+	padding-top: 10px;
+	text-align: center;
+	color: black;
+	font-family: arial black;
+	font-size: 12px;
+	display: inline-block;
+	width: 90px;
+	height: 30px;
+	margin: 3.5px 1px;
+	border-right: 2px solid grey;
+	border-bottom: 2px solid grey;
+	border-radius: 10px;
+}
+
+.magnets1 {
+	background-color: #FEFFBC;
+}
+
+.magnets2 {
+	background-color: #CFF6FD;
+}
+
+.magnets3 {
+	background-color: #D9FDCF;
+}
+
+.magnets4 {
+	background-color: #FDCFCF;
+}
+
+#mag16{
+	padding: 5px 0px;
+	position: relative;
+	top: 11px;
+}
+
+#mag22{
+	padding: 5px 0px;
+	position: relative;
+	top: 11px;
+}
+
+#mag23{
+	padding: 5px 0px;
+	position: relative;
+	top: 11px;
+}
+
+
+.magnets:hover {
+	background-color: white;
+	cursor: pointer;
+}
+
+#reset {
+	padding: 5px 10px;
+	position: fixed;
+	top: 10px;
+	left: 460px;
+	width: 75px;
+	height: 30px;
+	background-color: red;
+	color: white;
+	font-family: arial black;
+	font-size: 20px;
+	border: 2px solid black;
+	border-radius: 20px;
+	z-index: 100;
+}
+
+#reset:hover {
+	cursor: pointer;
+	border: 2px solid white;
+	color: black;
+}
+
+#door {
+	user-select: none;
+	position: fixed;
+	top: 216px;
+	left: 36px;
+	width: 100px;
+	height: 20px;
+	color: white;
+	background-color: #555;
+	opacity: .7;
+	border-radius: 20px;
+	text-align: center;
+	padding-top: 3px;
+	font-size: 14px;
+	font-family: arial black;
+	z-index: 4;
+}
+
+#door:hover {
+	top: 214px;
+	left: 34px;
+	cursor: pointer;
+	border: 2px solid white;
+}
+
+#door:active {
+	font-size: 12px;
+	padding-top: 1px;
+	width: 96px;
+	height: 18px;
+	top: 215px;
+	left: 35px;
+}
+
+.inside {
+	top: 200px;
+}
+
+#foodStorage {
+	background-image: url(../Images/InsideFridge.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: fixed;
+	top: 245px;
+	left: 35px;
+	width: 400px;
+	height: 420px;
+}
+
+#foodItems {
+	position: absolute;
+	left: 45px;
+	top: 15px;
+}
+
+.food {
+	user-select: none;
+	padding-top: 20px;
+	text-align: center;
+	color: black;
+	font-family: arial black;
+	font-size: 14px;
+	display: inline-block;
+	width: 75px;
+	height: 40px;
+	margin: 23px 5px;
+	border-right: 2px solid grey;
+	border-bottom: 2px solid grey;
+	border-radius: 10px;
+	z-index: 3;
+}
+
+.food:hover {
+	background-color: white;
+	cursor: pointer;
+}
+
+#mag29 {
+	background-color: white;
+	padding-bottom: 10px;
+	padding-top:  10px;
+	height: 20px;
+	margin: 25px 30px 40px 5px;
+	border-radius: 50px;
+	width: 55px;
+}
+
+#mag30 {
+	background-color: white;
+	padding-bottom: 10px;
+	padding-top:  10px;
+	height: 20px;
+	margin: 25px 30px 40px 5px;
+	border-radius: 50px;
+	width: 55px;
+}
+
+#mag31 {
+	background-color: white;
+	padding-bottom: 10px;
+	padding-top:  10px;
+	height: 20px;
+	margin: 25px 30px 40px 5px;
+	border-radius: 50px;
+	width: 75px;
+}
+
+#mag33 {
+	background-color: red;
+	padding-bottom: 10px;
+	padding-top:  10px;
+	height: 20px;
+	margin: 75px 5px 0px 5px;
+}
+
+#mag34 {
+	background-color: blue;
+	color: white;
+	padding-bottom: 10px;
+	padding-top:  10px;
+	height: 20px;
+	margin: 75px 5px 0px 5px;
+}
+
+#mag35 {
+	background-color: yellow;
+	padding-bottom: 10px;
+	padding-top:  10px;
+	height: 20px;
+	margin: 75px 5px 0px 5px;
+}
+
+#mag37 {
+	position: relative;
+	top: 20px;
+	background-color: #999;
+	color: white;
+}
+
+#mag38 {
+	position: relative;
+	top: 20px;
+	background-color: orange;
+}
+
+#mag39 {
+	position: relative;
+	top: 20px;
+	background-color: #FF5D51;
+}
+
+#mag41 {
+	position: relative;
+	top: 20px;
+	background-color: green;
+	color: white;
+	height: 10px;
+	width: 85px;
+	margin-right: 0px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+#mag42 {
+	position: relative;
+	top: 20px;
+	background-color: #A5FCFF;
+	height: 10px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	margin-right: 0px;
+}
+
+#mag43 {
+	position: relative;
+	top: 20px;
+	background-color: #008D4C;
+	color: white;
+	height: 10px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
